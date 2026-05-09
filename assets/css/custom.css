@@ -1,0 +1,13 @@
+:root { --hero-padding: 6rem 0; }
+body { min-height: 100vh; display: flex; flex-direction: column; overflow-x: hidden; }
+main { flex: 1; }
+a { text-decoration: none; }
+.hero { padding: var(--hero-padding); background: linear-gradient(135deg, rgba(13,110,253,.12), rgba(33,37,41,.04)); }
+.section-padding { padding: 4rem 0; }
+.card-hover { transition: transform .2s ease, box-shadow .2s ease; }
+.card-hover:hover { transform: translateY(-4px); box-shadow: 0 1rem 2rem rgba(0,0,0,.08); }
+.text-opacity { opacity: .8; }
+.footer a { color: inherit; opacity: .85; }
+.footer a:hover { opacity: 1; }
+.article-cover { aspect-ratio: 16 / 9; object-fit: cover; background: #f4f4f4; }
+.ad-slot { border: 1px dashed #ced4da; border-radius: .75rem; padding: 1rem; text-align: center; color: #6c757d; background: rgba(0,0,0,.02); }
