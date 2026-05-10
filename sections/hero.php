@@ -1,6 +1,6 @@
 <section class="hero">
   <div class="container">
-    <div class="row align-items-center g-5">
+    <div class="row align-items-center gy-5 gx-4">
       <div class="col-lg-7">
         <span class="badge text-bg-primary mb-3">Bootstrap 5 + PHP Includes</span>
         <h1 class="display-4 fw-bold">Build simple static PHP websites without CMS bloat.</h1>
